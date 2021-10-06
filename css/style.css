@@ -53,6 +53,11 @@ p{
     background-color: #23272a;
 }
 
+.btn_violet{
+    color: white;
+    background-color: #5865F2;
+}
+
 .btn_white:hover{
     color: #6C73F2;
     box-shadow: 1px 1px 10px #090808;
@@ -61,7 +66,12 @@ p{
 
 .btn_black:hover{
     background-color: #36393F;
-    ;
+    box-shadow: 1px 1px 10px #090808;
+    transition: 0.2s;
+}
+
+.btn_violet:hover{
+    background-color: #7983F5;
     box-shadow: 1px 1px 10px #090808;
     transition: 0.2s;
 }
@@ -174,14 +184,51 @@ section .main_img img{
     width: 90%;
 }
 
-section .main_text h2{
+section h2{
     font-size: 35px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 section .main_text{
     width: 40%;
     padding: 40px 100px;
+}
+
+/* quarta sezione Tecnologia affidabile */
+
+.fourth_section .main_text{
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+
+}
+
+.fourth_section .main_img{
+    width: 100%;
+}
+
+.fourth_section .main_img img{
+    width: 100%;
+}
+
+.star{
+    width: 50%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.star h3{
+    font-size: 30px;
+}
+
+.star .btn{
+    padding: 10px 25px;
 }
 
 /* *****footer***** */
@@ -206,11 +253,11 @@ section .main_text{
     background-color: hotpink;
 } */
 
-.debug section{
+/* .debug section{
     height: 500px;
     background-color: grey;
     border: 1px solid black
-}
+} */
 
 .debug footer{
     height: 400px;
