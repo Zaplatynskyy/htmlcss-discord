@@ -20,6 +20,7 @@ p{
 }
 
 /* proprietà float */
+
 .clearfix::after{
     content: " ";
     clear: both;
@@ -240,6 +241,7 @@ footer{
 
 .top_footer{
     padding-top: 50px;
+    border-bottom: 1px solid #4a5882;
 }
 
 .top_footer .connections{
@@ -260,6 +262,7 @@ footer{
 .top_footer .languages img{
     width: 25px;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .top_footer .languages select{
@@ -268,6 +271,7 @@ footer{
     font-size: 12px;
     border-style: none;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 /* proprietà icone social */
@@ -276,14 +280,45 @@ footer{
     color: white;
     font-size: 20px;
     margin-right: 15px;
+    cursor: pointer;
 }
 
+/* proprietà lista nav footer */
+
+.top_footer nav{
+    width: calc((100% - 250px) / 4 );
+    padding: 5px 5px 20px 10px;
+}
+
+.top_footer nav li:first-child{
+    color: #7983F5;
+}
+
+.top_footer nav li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.top_footer nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.top_footer nav a:hover{
+    text-decoration: underline;
+}
+
+/* proprietà bottom footer */
+
+.bottom_footer{
+    margin-top: 30px;
+}
 
 /* *****debug***** */
 
 .debug .container{
     height: 100%;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 /* .debug header{
@@ -305,10 +340,10 @@ footer{
     border: 1px solid black
 } */
 
-.debug footer{
+/* .debug footer{
     height: 400px;
     background-color: green;
-}
+} */
 
 /* .debug .connections{
     height: 300px;
@@ -316,15 +351,15 @@ footer{
     border: 1px solid black;
 } */
 
-.debug .top_footer nav{
-    width: calc((100% - 250px) / 4 );
+/* .debug .top_footer nav{
+    
     height: 300px;
-    background-color: yellow;
-    border: 1px solid black;
-}
+    background-color: black;
+    border: 1px solid green;
+} */
 
-.debug .bottom_footer{
+/* .debug .bottom_footer{
     width: 100%;
     height: 80px;
     background-color: yellowgreen;
-}
+} */
