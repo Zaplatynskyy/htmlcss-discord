@@ -7,12 +7,16 @@
 }
 
 body{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
     width: 70%;
     margin: auto;
+}
+
+p{
+    line-height: 25px;
 }
 
 /* proprietà float */
@@ -128,6 +132,7 @@ header .btn{
 }
 
 .jumbo_text{
+    width: 60%;
     text-align: center;
     color: white;
     position: absolute;
@@ -142,6 +147,7 @@ header .btn{
 
 .jumbo_text p{
     margin: 30px;
+    
 }
 
 .jumbo_botton .btn{
