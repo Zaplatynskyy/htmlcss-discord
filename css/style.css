@@ -161,14 +161,22 @@ header .btn{
 
 /* *****main***** */
 
-section .main_text.left{
-    width: 20%;
-    margin: 35px;
+section .main_img{
+    width: 60%;
+}
+
+section .main_img img{
+    width: 90%;
 }
 
 section .main_text h2{
     font-size: 35px;
     margin-bottom: 25px;
+}
+
+section .main_text{
+    width: 40%;
+    padding: 40px 100px;
 }
 
 /* *****footer***** */
