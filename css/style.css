@@ -10,7 +10,22 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+.container{
+    width: 70%;
+    margin: auto;
+}
+
 /* *****header***** */
+
+header{
+    height: 80px;
+}
+
+/* *****sezione jumbotron***** */
+
+#jumbotron{
+    height: 600px;
+}
 
 /* *****main***** */
 
@@ -18,3 +33,25 @@ body{
 
 /* *****debug***** */
 
+.debug .container{
+    height: 100%;
+    border: 2px solid black;
+}
+
+.debug header{
+    background-color: aquamarine;
+}
+
+.debug #jumbotron{
+    background-color: aqua;
+}
+
+.debug main{
+    height: 1000px;
+    background-color: hotpink;
+}
+
+.debug footer{
+    height: 400px;
+    background-color: green;
+}
