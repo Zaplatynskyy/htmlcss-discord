@@ -15,10 +15,48 @@ body{
     margin: auto;
 }
 
+.clearfix::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.float_left{
+    float: left;
+}
+
+.float_right{
+    float: right;
+}
+
 /* *****header***** */
 
 header{
     height: 80px;
+}
+
+/* proprietà logo */
+
+.logo{
+    width: 20%;
+}
+
+/* proprietà barra di navigazione */
+
+header nav{
+    width: 60%;
+    text-align: center;
+}
+
+header nav li{
+    display: inline-block;
+}
+
+/* proprietà bottone */
+
+header .btn{
+    width: 20%;
+    text-align: right;
 }
 
 /* *****sezione jumbotron***** */
