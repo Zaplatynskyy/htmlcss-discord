@@ -168,13 +168,19 @@ header .btn{
     background-color: lightgreen;
 } */
 
-.debug #jumbotron{
+/* .debug #jumbotron{
     background-color: aqua;
-}
+} */
 
-.debug main{
+/* .debug main{
     height: 1000px;
     background-color: hotpink;
+} */
+
+.debug section{
+    height: 500px;
+    background-color: grey;
+    border: 1px solid black
 }
 
 .debug footer{
