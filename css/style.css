@@ -311,15 +311,24 @@ footer{
 /* proprietà bottom footer */
 
 .bottom_footer{
+    line-height: 34px;
     margin-top: 30px;
 }
 
+.bottom_footer .logo_img{
+    cursor: pointer;
+}
+
+
+
+
+
 /* *****debug***** */
 
-.debug .container{
+/* .debug .container{
     height: 100%;
     border: 2px solid black;
-}
+} */
 
 /* .debug header{
     background-color: lightgreen;
