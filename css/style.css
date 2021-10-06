@@ -15,30 +15,51 @@ body{
     margin: auto;
 }
 
+/* proprietà float */
 .clearfix::after{
     content: " ";
     clear: both;
     display: table;
 }
 
-.float_left{
+.left{
     float: left;
 }
 
-.float_right{
+.right{
     float: right;
+}
+
+/* proprietà botton */
+
+.btn{
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 2em;
+}
+
+.btn_white{
+    font-size: 15px;
+    color: black;
+    background-color: white;
 }
 
 /* *****header***** */
 
 header{
     height: 80px;
+    line-height: 80px;
 }
 
 /* proprietà logo */
 
-.logo{
+.logo_img{
     width: 20%;
+}
+
+header .logo_img img{
+    vertical-align: middle;
 }
 
 /* proprietà barra di navigazione */
@@ -50,11 +71,18 @@ header nav{
 
 header nav li{
     display: inline-block;
+    margin: 0 15px;
 }
 
-/* proprietà bottone */
+header li a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
 
-header .btn{
+/* proprietà bottone enter*/
+
+header .enter{
     width: 20%;
     text-align: right;
 }
@@ -77,7 +105,7 @@ header .btn{
 }
 
 .debug header{
-    background-color: aquamarine;
+    background-color: lightgreen;
 }
 
 .debug #jumbotron{
