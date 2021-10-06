@@ -155,6 +155,16 @@ header .btn{
 
 /* *****main***** */
 
+section .main_text.left{
+    width: 20%;
+    margin: 35px;
+}
+
+section .main_text h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
 /* *****footer***** */
 
 /* *****debug***** */
