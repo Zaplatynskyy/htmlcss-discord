@@ -235,9 +235,48 @@ section .main_text{
 
 footer{
     width: 100%;
+    background-color: #23272a;
 }
 
+.top_footer{
+    padding-top: 50px;
+}
 
+.top_footer .connections{
+    width: 250px;
+}
+
+.top_footer .connections h3{
+    color: #7983F5;
+    font-size: 30px;
+}
+
+/* proprietà tendina scelta linguaggio */
+.top_footer .languages{
+    height: 50px;
+    line-height: 50px;
+}
+
+.top_footer .languages img{
+    width: 25px;
+    vertical-align: middle;
+}
+
+.top_footer .languages select{
+    color: white;
+    background-color: #23272a;
+    font-size: 12px;
+    border-style: none;
+    vertical-align: middle;
+}
+
+/* proprietà icone social */
+
+.top_footer .content_social i{
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+}
 
 
 /* *****debug***** */
@@ -271,15 +310,14 @@ footer{
     background-color: green;
 }
 
-.debug .connections{
-    width: 300px;
+/* .debug .connections{
     height: 300px;
     background-color: yellow;
     border: 1px solid black;
-}
+} */
 
 .debug .top_footer nav{
-    width: calc((100% - 300px) / 4 );
+    width: calc((100% - 250px) / 4 );
     height: 300px;
     background-color: yellow;
     border: 1px solid black;
