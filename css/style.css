@@ -233,6 +233,13 @@ section .main_text{
 
 /* *****footer***** */
 
+footer{
+    width: 100%;
+}
+
+
+
+
 /* *****debug***** */
 
 .debug .container{
@@ -262,4 +269,24 @@ section .main_text{
 .debug footer{
     height: 400px;
     background-color: green;
+}
+
+.debug .connections{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.debug .top_footer nav{
+    width: calc((100% - 300px) / 4 );
+    height: 300px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.debug .bottom_footer{
+    width: 100%;
+    height: 80px;
+    background-color: yellowgreen;
 }
