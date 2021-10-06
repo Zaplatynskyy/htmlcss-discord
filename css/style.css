@@ -124,6 +124,7 @@ header .btn{
     height: 540px;
     background-image: url('../img/jumbo.png');
     background-size: cover;
+    margin-bottom: 100px;
 }
 
 #jumbotron .container{
@@ -160,6 +161,10 @@ header .btn{
 }
 
 /* *****main***** */
+
+main section{
+    margin-bottom: 150px;
+}
 
 section .main_img{
     width: 60%;
